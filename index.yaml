@@ -2,7 +2,16 @@ apiVersion: v1
 entries:
   ett-base-helm-chart:
   - apiVersion: v2
-    created: "2021-09-22T17:28:08.446089145Z"
+    created: "2021-09-29T02:28:18.005377462Z"
+    description: A Helm chart for Kubernetes
+    digest: 902e7ec7765d1f7d93435418960e38bdc01b42069bfa9082154e169b5c12eee6
+    name: ett-base-helm-chart
+    type: application
+    urls:
+    - ett-base-helm-chart-v0.1.1.tgz
+    version: v0.1.1
+  - apiVersion: v2
+    created: "2021-09-29T02:28:18.005159064Z"
     description: A Helm chart for Kubernetes
     digest: eb025271a059a9ab53533181c96dcc626b0a2758d1b171510d51ea292380fffe
     name: ett-base-helm-chart
@@ -10,4 +19,4 @@ entries:
     urls:
     - ett-base-helm-chart-v0.1.0.tgz
     version: v0.1.0
-generated: "2021-09-22T17:28:08.445674043Z"
+generated: "2021-09-29T02:28:18.004751068Z"
