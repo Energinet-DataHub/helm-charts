@@ -13,7 +13,7 @@ jobs:
           path: 'repo'
 
       - run: |
-          wget https://github.com/${{ github.event.client_payload.repository }}/releases/download/${{ github.event.client_payload.version }}/${{ github.event.client_payload.filename }} -o .repo/${{ github.event.client_payload.filename }}
+          wget https://github.com/${{ github.event.client_payload.repository }}/releases/download/${{ github.event.client_payload.version }}/${{ github.event.client_payload.filename }} -o ./repo/${{ github.event.client_payload.filename }}
 
 
       - name: Update index file for helm registry
