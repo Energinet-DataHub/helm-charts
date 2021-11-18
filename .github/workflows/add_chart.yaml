@@ -5,7 +5,6 @@ env:
   BRANCH_NAME: 'gh-pages'
   REPO_PATH: 'repo'
 
-
 jobs:
   add-chart:
     name: Add chart to helm registry.
@@ -20,6 +19,11 @@ jobs:
       - name: "get chart tarball"
         run: |
           wget https://github.com/${{ github.event.client_payload.repository }}/releases/download/${{ github.event.client_payload.version }}/${{ github.event.client_payload.filename }} -o ./${{ env.REPO_PATH }}/${{ github.event.client_payload.filename }}
+
+      - name: set git info
+        run: |
+         git -C ${{ env.REPO_PATH }} config user.email "bot@github.com"
+         git -C ${{ env.REPO_PATH }} config user.name "Bot"
 
       - name: update index file for helm registry
         run: helm repo index ${{ env.REPO_PATH }}
