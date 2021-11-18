@@ -18,7 +18,7 @@ jobs:
 
       - name: "get chart tarball"
         run: |
-          wget https://github.com/${{ github.event.client_payload.repository }}/releases/download/${{ github.event.client_payload.version }}/${{ github.event.client_payload.filename }} -o ./${{ env.REPO_PATH }}/${{ github.event.client_payload.filename }}
+          wget https://github.com/${{ github.event.client_payload.repository }}/releases/download/${{ github.event.client_payload.version }}/${{ github.event.client_payload.filename }} -O ./${{ env.REPO_PATH }}/${{ github.event.client_payload.filename }}
 
       - name: set git info
         run: |
