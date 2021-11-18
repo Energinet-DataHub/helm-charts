@@ -3,7 +3,8 @@ name: Add chart via dispatch
 on: [repository_dispatch]
 
 jobs:
-  build:
+  add-chart:
+    name: Add chart to helm registry.
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
