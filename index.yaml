@@ -2,7 +2,16 @@ apiVersion: v1
 entries:
   eo-base-helm-chart:
   - apiVersion: v2
-    created: "2021-11-23T11:35:53.371863935Z"
+    created: "2021-11-23T14:50:43.543476777Z"
+    description: A Helm chart for Kubernetes
+    digest: 31da34800936fad7e17bb76dc2f06f7417a1978e4ff93c98e3774d22e17b6234
+    name: eo-base-helm-chart
+    type: application
+    urls:
+    - eo-base-helm-chart-v0.4.0.tgz
+    version: v0.4.0
+  - apiVersion: v2
+    created: "2021-11-23T14:50:43.54311538Z"
     description: A Helm chart for Kubernetes
     digest: 3fada6f8c67bb08469c81abcce0f4fc2d0599c7e8c0e970ae6ae45afc416626e
     name: eo-base-helm-chart
@@ -11,7 +20,7 @@ entries:
     - eo-base-helm-chart-v0.3.4.tgz
     version: v0.3.4
   - apiVersion: v2
-    created: "2021-11-23T11:35:53.371488833Z"
+    created: "2021-11-23T14:50:43.54180859Z"
     description: A Helm chart for Kubernetes
     digest: 05b0c84ccebcc0a0b78ecfb60036e82f0728774e21d8860cb99e8926a0463427
     name: eo-base-helm-chart
@@ -20,7 +29,7 @@ entries:
     - eo-base-helm-chart-v0.3.1.tgz
     version: v0.3.1
   - apiVersion: v2
-    created: "2021-11-23T11:35:53.371164832Z"
+    created: "2021-11-23T14:50:43.541423593Z"
     description: A Helm chart for Kubernetes
     digest: e2fb543b49db0ca06378aff4b6169585599dc3383c49046a25e881b60b3e120e
     name: eo-base-helm-chart
@@ -29,7 +38,7 @@ entries:
     - eo-base-helm-chart-v0.3.0.tgz
     version: v0.3.0
   - apiVersion: v2
-    created: "2021-11-23T11:35:53.34346212Z"
+    created: "2021-11-23T14:50:43.540626099Z"
     description: A Helm chart for Kubernetes
     digest: 1927fcf4f040f070f25857cd7a85c501072e7a1edd790dd0254b5d589f967af0
     name: eo-base-helm-chart
@@ -39,7 +48,7 @@ entries:
     version: v0.2.0
   oe-base-helm-chart:
   - apiVersion: v2
-    created: "2021-11-23T11:35:53.372141136Z"
+    created: "2021-11-23T14:50:43.543734075Z"
     description: A Helm chart for Kubernetes
     digest: 578ba71ea0b9ae7ae63c3a1ab54c1f29823b011d902dfa71b1b39c6c61d97c35
     name: oe-base-helm-chart
@@ -47,4 +56,4 @@ entries:
     urls:
     - oe-base-helm-chart-v0.2.0.tgz
     version: v0.2.0
-generated: "2021-11-23T11:35:53.342394716Z"
+generated: "2021-11-23T14:50:43.538986612Z"
