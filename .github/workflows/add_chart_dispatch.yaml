@@ -1,0 +1,41 @@
+name: Add chart via workflow dispatch
+
+on:
+  workflow_dispatch:
+    inputs:
+      repository:
+        description: The repository of the release in the format "owner/repo"
+        required: true
+      version:
+        description: The GitHub release version.
+        required: true
+      filename:
+        description: The filename of the chart in the GitHub release.
+        required: true
+
+env:
+  BRANCH_NAME: 'gh-pages'
+
+jobs:
+  add-chart:
+    name: Add chart to helm registry.
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Checkout repo"
+        uses: actions/checkout@v2
+        with:
+          ref: ${{ env.BRANCH_NAME }}
+
+      - name: "Get chart tarball"
+        run: |
+          wget https://github.com/${{ github.event.inputs.repository }}/releases/download/${{ github.event.inputs.version }}/${{ github.event.inputs.filename }} -O ./${{ github.event.inputs.filename }}
+      - name: Update index file for helm registry
+        run: helm repo index .
+
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v7 
+        with:
+          add: '["index.yaml", "${{ github.event.inputs.filename }}"]'
+          message: "Updated the helm registry with file ${{ github.event.inputs.filename }}"
+          push: true
+          branch: ${{ env.BRANCH_NAME }}
