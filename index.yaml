@@ -2,7 +2,23 @@ apiVersion: v1
 entries:
   eo-auth:
   - apiVersion: v2
-    created: "2022-02-11T10:32:16.193118507Z"
+    created: "2022-02-11T10:42:16.668377706Z"
+    dependencies:
+    - name: eo-base-helm-chart
+      repository: https://energinet-datahub.github.io/helm-charts/
+      version: v0.5.0
+    - name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.13.8
+    description: A Helm chart for Kubernetes
+    digest: 1055ba4a337997dfe40c605e9736613975b1a87cf9024be26f0a00f49c767dd0
+    name: eo-auth
+    type: application
+    urls:
+    - eo-auth-0.1.3-pr.88.eef7708.tgz
+    version: 0.1.3-pr.88.eef7708
+  - apiVersion: v2
+    created: "2022-02-11T10:42:16.664302589Z"
     dependencies:
     - name: eo-base-helm-chart
       repository: https://energinet-datahub.github.io/helm-charts/
@@ -18,7 +34,7 @@ entries:
     - eo-auth-0.1.3-pr.87.605aaa8.tgz
     version: 0.1.3-pr.87.605aaa8
   - apiVersion: v2
-    created: "2022-02-11T10:32:16.188201669Z"
+    created: "2022-02-11T10:42:16.660193971Z"
     dependencies:
     - name: eo-base-helm-chart
       repository: https://energinet-datahub.github.io/helm-charts/
@@ -34,7 +50,7 @@ entries:
     - eo-auth-0.1.3-pr.85.c131cdf.tgz
     version: 0.1.3-pr.85.c131cdf
   - apiVersion: v2
-    created: "2022-02-11T10:32:16.155710615Z"
+    created: "2022-02-11T10:42:16.65521415Z"
     dependencies:
     - name: eo-base-helm-chart
       repository: https://energinet-datahub.github.io/helm-charts/
@@ -50,7 +66,7 @@ entries:
     - eo-auth-0.1.3-pr.85.9069b62.tgz
     version: 0.1.3-pr.85.9069b62
   - apiVersion: v2
-    created: "2022-02-11T10:32:16.150736576Z"
+    created: "2022-02-11T10:42:16.651132832Z"
     dependencies:
     - name: eo-base-helm-chart
       repository: https://energinet-datahub.github.io/helm-charts/
@@ -66,7 +82,7 @@ entries:
     - eo-auth-0.1.3-pr.85.7a78dba.tgz
     version: 0.1.3-pr.85.7a78dba
   - apiVersion: v2
-    created: "2022-02-11T10:32:16.144750429Z"
+    created: "2022-02-11T10:42:16.646538012Z"
     dependencies:
     - name: eo-base-helm-chart
       repository: https://energinet-datahub.github.io/helm-charts/
@@ -82,7 +98,7 @@ entries:
     - eo-auth-0.1.3-pr.85.0d07e58.tgz
     version: 0.1.3-pr.85.0d07e58
   - apiVersion: v2
-    created: "2022-02-11T10:32:16.139953392Z"
+    created: "2022-02-11T10:42:16.642310294Z"
     dependencies:
     - name: eo-base-helm-chart
       repository: https://energinet-datahub.github.io/helm-charts/
@@ -98,7 +114,7 @@ entries:
     - eo-auth-0.1.3-pr.84.5461ae5.tgz
     version: 0.1.3-pr.84.5461ae5
   - apiVersion: v2
-    created: "2022-02-11T10:32:16.134232747Z"
+    created: "2022-02-11T10:42:16.638223476Z"
     dependencies:
     - name: eo-base-helm-chart
       repository: https://energinet-datahub.github.io/helm-charts/
@@ -114,7 +130,7 @@ entries:
     - eo-auth-0.1.3-pr.83.e1a1e87.tgz
     version: 0.1.3-pr.83.e1a1e87
   - apiVersion: v2
-    created: "2022-02-11T10:32:16.12942601Z"
+    created: "2022-02-11T10:42:16.633168055Z"
     dependencies:
     - name: eo-base-helm-chart
       repository: https://energinet-datahub.github.io/helm-charts/
@@ -130,7 +146,7 @@ entries:
     - eo-auth-0.1.3-pr.83.5943f52.tgz
     version: 0.1.3-pr.83.5943f52
   - apiVersion: v2
-    created: "2022-02-11T10:32:16.124555172Z"
+    created: "2022-02-11T10:42:16.629106237Z"
     dependencies:
     - name: eo-base-helm-chart
       repository: https://energinet-datahub.github.io/helm-charts/
@@ -146,7 +162,7 @@ entries:
     - eo-auth-0.1.3-pr.81.3dc35bf.tgz
     version: 0.1.3-pr.81.3dc35bf
   - apiVersion: v2
-    created: "2022-02-11T10:32:16.119531732Z"
+    created: "2022-02-11T10:42:16.624685518Z"
     dependencies:
     - name: eo-base-helm-chart
       repository: https://energinet-datahub.github.io/helm-charts/
@@ -162,7 +178,7 @@ entries:
     - eo-auth-0.1.3-pr.79.56c253f.tgz
     version: 0.1.3-pr.79.56c253f
   - apiVersion: v2
-    created: "2022-02-11T10:32:16.113715387Z"
+    created: "2022-02-11T10:42:16.620138798Z"
     dependencies:
     - name: eo-base-helm-chart
       repository: https://energinet-datahub.github.io/helm-charts/
@@ -178,7 +194,7 @@ entries:
     - eo-auth-0.1.3-pr.78.cf0d969.tgz
     version: 0.1.3-pr.78.cf0d969
   - apiVersion: v2
-    created: "2022-02-11T10:32:16.108748948Z"
+    created: "2022-02-11T10:42:16.616046681Z"
     dependencies:
     - name: eo-base-helm-chart
       repository: https://energinet-datahub.github.io/helm-charts/
@@ -194,7 +210,7 @@ entries:
     - eo-auth-0.1.3-pr.78.6c3d84c.tgz
     version: 0.1.3-pr.78.6c3d84c
   - apiVersion: v2
-    created: "2022-02-11T10:32:16.103030403Z"
+    created: "2022-02-11T10:42:16.611014959Z"
     dependencies:
     - name: eo-base-helm-chart
       repository: https://energinet-datahub.github.io/helm-charts/
@@ -210,7 +226,7 @@ entries:
     - eo-auth-0.1.3-pr.76.6f57d12.tgz
     version: 0.1.3-pr.76.6f57d12
   - apiVersion: v2
-    created: "2022-02-11T10:32:16.098168965Z"
+    created: "2022-02-11T10:42:16.606948842Z"
     dependencies:
     - name: eo-base-helm-chart
       repository: https://energinet-datahub.github.io/helm-charts/
@@ -226,7 +242,7 @@ entries:
     - eo-auth-0.1.3-pr.75.dce3131.tgz
     version: 0.1.3-pr.75.dce3131
   - apiVersion: v2
-    created: "2022-02-11T10:32:16.093241827Z"
+    created: "2022-02-11T10:42:16.602495422Z"
     dependencies:
     - name: eo-base-helm-chart
       repository: https://energinet-datahub.github.io/helm-charts/
@@ -242,7 +258,7 @@ entries:
     - eo-auth-0.1.3-pr.75.6f03f20.tgz
     version: 0.1.3-pr.75.6f03f20
   - apiVersion: v2
-    created: "2022-02-11T10:32:16.086733376Z"
+    created: "2022-02-11T10:42:16.597981503Z"
     dependencies:
     - name: eo-base-helm-chart
       repository: https://energinet-datahub.github.io/helm-charts/
@@ -258,7 +274,7 @@ entries:
     - eo-auth-0.1.3-pr.75.4cfdec4.tgz
     version: 0.1.3-pr.75.4cfdec4
   - apiVersion: v2
-    created: "2022-02-11T10:32:16.081774537Z"
+    created: "2022-02-11T10:42:16.593861785Z"
     dependencies:
     - name: eo-base-helm-chart
       repository: https://energinet-datahub.github.io/helm-charts/
@@ -274,7 +290,7 @@ entries:
     - eo-auth-0.1.3-pr.75.13611cf.tgz
     version: 0.1.3-pr.75.13611cf
   - apiVersion: v2
-    created: "2022-02-11T10:32:16.076722198Z"
+    created: "2022-02-11T10:42:16.588811864Z"
     dependencies:
     - name: eo-base-helm-chart
       repository: https://energinet-datahub.github.io/helm-charts/
@@ -290,7 +306,7 @@ entries:
     - eo-auth-0.1.3-pr.74.df27356.tgz
     version: 0.1.3-pr.74.df27356
   - apiVersion: v2
-    created: "2022-02-11T10:32:16.071632558Z"
+    created: "2022-02-11T10:42:16.584668946Z"
     dependencies:
     - name: eo-base-helm-chart
       repository: https://energinet-datahub.github.io/helm-charts/
@@ -306,7 +322,7 @@ entries:
     - eo-auth-0.1.3-pr.74.b4e2f2b.tgz
     version: 0.1.3-pr.74.b4e2f2b
   - apiVersion: v2
-    created: "2022-02-11T10:32:16.06678792Z"
+    created: "2022-02-11T10:42:16.580268327Z"
     dependencies:
     - name: eo-base-helm-chart
       repository: https://energinet-datahub.github.io/helm-charts/
@@ -322,7 +338,7 @@ entries:
     - eo-auth-0.1.3-pr.74.5024e03.tgz
     version: 0.1.3-pr.74.5024e03
   - apiVersion: v2
-    created: "2022-02-11T10:32:16.060705273Z"
+    created: "2022-02-11T10:42:16.575496406Z"
     dependencies:
     - name: eo-base-helm-chart
       repository: https://energinet-datahub.github.io/helm-charts/
@@ -338,7 +354,7 @@ entries:
     - eo-auth-0.1.3-pr.74.280dee0.tgz
     version: 0.1.3-pr.74.280dee0
   - apiVersion: v2
-    created: "2022-02-11T10:32:16.050828696Z"
+    created: "2022-02-11T10:42:16.558859034Z"
     dependencies:
     - name: eo-base-helm-chart
       repository: https://energinet-datahub.github.io/helm-charts/
@@ -354,7 +370,7 @@ entries:
     - eo-auth-0.1.3-pr.74.0fff2a2.tgz
     version: 0.1.3-pr.74.0fff2a2
   - apiVersion: v2
-    created: "2022-02-11T10:32:16.055917235Z"
+    created: "2022-02-11T10:42:16.571258588Z"
     dependencies:
     - name: eo-base-helm-chart
       repository: https://energinet-datahub.github.io/helm-charts/
@@ -370,7 +386,7 @@ entries:
     - eo-auth-0.1.3-pr.74.1414918.tgz
     version: 0.1.3-pr.74.1414918
   - apiVersion: v2
-    created: "2022-02-11T10:32:16.045064051Z"
+    created: "2022-02-11T10:42:16.554784217Z"
     dependencies:
     - name: eo-base-helm-chart
       repository: https://energinet-datahub.github.io/helm-charts/
@@ -386,7 +402,7 @@ entries:
     - eo-auth-0.1.3-pr.73.b4ce88d.tgz
     version: 0.1.3-pr.73.b4ce88d
   - apiVersion: v2
-    created: "2022-02-11T10:32:16.040000911Z"
+    created: "2022-02-11T10:42:16.550172497Z"
     dependencies:
     - name: eo-base-helm-chart
       repository: https://energinet-datahub.github.io/helm-charts/
@@ -402,7 +418,7 @@ entries:
     - eo-auth-0.1.3-pr.73.9101ff8.tgz
     version: 0.1.3-pr.73.9101ff8
   - apiVersion: v2
-    created: "2022-02-11T10:32:16.026651707Z"
+    created: "2022-02-11T10:42:16.545975979Z"
     dependencies:
     - name: eo-base-helm-chart
       repository: https://energinet-datahub.github.io/helm-charts/
@@ -418,7 +434,7 @@ entries:
     - eo-auth-0.1.3-pr.73.89c3bf1.tgz
     version: 0.1.3-pr.73.89c3bf1
   - apiVersion: v2
-    created: "2022-02-11T10:32:16.021552267Z"
+    created: "2022-02-11T10:42:16.541847061Z"
     dependencies:
     - name: eo-base-helm-chart
       repository: https://energinet-datahub.github.io/helm-charts/
@@ -434,7 +450,7 @@ entries:
     - eo-auth-0.1.3-pr.73.53e16f0.tgz
     version: 0.1.3-pr.73.53e16f0
   - apiVersion: v2
-    created: "2022-02-11T10:32:16.015436319Z"
+    created: "2022-02-11T10:42:16.53693874Z"
     dependencies:
     - name: eo-base-helm-chart
       repository: https://energinet-datahub.github.io/helm-charts/
@@ -450,7 +466,7 @@ entries:
     - eo-auth-0.1.3-pr.73.3750326.tgz
     version: 0.1.3-pr.73.3750326
   - apiVersion: v2
-    created: "2022-02-11T10:32:16.010264379Z"
+    created: "2022-02-11T10:42:16.532131119Z"
     dependencies:
     - name: eo-base-helm-chart
       repository: https://energinet-datahub.github.io/helm-charts/
@@ -466,7 +482,7 @@ entries:
     - eo-auth-0.1.3-pr.72.a8f02bb.tgz
     version: 0.1.3-pr.72.a8f02bb
   - apiVersion: v2
-    created: "2022-02-11T10:32:16.236070242Z"
+    created: "2022-02-11T10:42:16.70414066Z"
     dependencies:
     - name: eo-base-helm-chart
       repository: https://energinet-datahub.github.io/helm-charts/
@@ -482,7 +498,7 @@ entries:
     - eo-auth-v0.1.2-pr.71.eb56d42.tgz
     version: v0.1.2-pr.71.eb56d42
   - apiVersion: v2
-    created: "2022-02-11T10:32:16.231172104Z"
+    created: "2022-02-11T10:42:16.699187639Z"
     dependencies:
     - name: eo-base-helm-chart
       repository: https://energinet-datahub.github.io/helm-charts/
@@ -498,7 +514,7 @@ entries:
     - eo-auth-v0.1.2-pr.70.d7aed8c.tgz
     version: v0.1.2-pr.70.d7aed8c
   - apiVersion: v2
-    created: "2022-02-11T10:32:16.225230758Z"
+    created: "2022-02-11T10:42:16.695142322Z"
     dependencies:
     - name: eo-base-helm-chart
       repository: https://energinet-datahub.github.io/helm-charts/
@@ -514,7 +530,7 @@ entries:
     - eo-auth-v0.1.2-pr.70.b6d9068.tgz
     version: v0.1.2-pr.70.b6d9068
   - apiVersion: v2
-    created: "2022-02-11T10:32:16.22036152Z"
+    created: "2022-02-11T10:42:16.690629102Z"
     dependencies:
     - name: eo-base-helm-chart
       repository: https://energinet-datahub.github.io/helm-charts/
@@ -530,7 +546,7 @@ entries:
     - eo-auth-v0.1.2-pr.70.9d0a82c.tgz
     version: v0.1.2-pr.70.9d0a82c
   - apiVersion: v2
-    created: "2022-02-11T10:32:16.203671289Z"
+    created: "2022-02-11T10:42:16.677547946Z"
     dependencies:
     - name: eo-base-helm-chart
       repository: https://energinet-datahub.github.io/helm-charts/
@@ -546,7 +562,7 @@ entries:
     - eo-auth-v0.1.2-pr.70.32b0cb9.tgz
     version: v0.1.2-pr.70.32b0cb9
   - apiVersion: v2
-    created: "2022-02-11T10:32:16.215159079Z"
+    created: "2022-02-11T10:42:16.686610385Z"
     dependencies:
     - name: eo-base-helm-chart
       repository: https://energinet-datahub.github.io/helm-charts/
@@ -562,7 +578,7 @@ entries:
     - eo-auth-v0.1.2-pr.70.4656015.tgz
     version: v0.1.2-pr.70.4656015
   - apiVersion: v2
-    created: "2022-02-11T10:32:16.208703429Z"
+    created: "2022-02-11T10:42:16.682512567Z"
     dependencies:
     - name: eo-base-helm-chart
       repository: https://energinet-datahub.github.io/helm-charts/
@@ -578,7 +594,7 @@ entries:
     - eo-auth-v0.1.2-pr.70.4595776.tgz
     version: v0.1.2-pr.70.4595776
   - apiVersion: v2
-    created: "2022-02-11T10:32:16.198088446Z"
+    created: "2022-02-11T10:42:16.673523129Z"
     dependencies:
     - name: eo-base-helm-chart
       repository: https://energinet-datahub.github.io/helm-charts/
@@ -595,7 +611,7 @@ entries:
     version: v0.1.2-pr.69.18ac420
   eo-base-helm-chart:
   - apiVersion: v2
-    created: "2022-02-11T10:32:16.240523177Z"
+    created: "2022-02-11T10:42:16.706875072Z"
     description: A Helm chart for Kubernetes
     digest: 31163dee9e1d6ee2a97b1e0a1be927f993dfb1094ac2d2dd9b15a5309896d1ee
     name: eo-base-helm-chart
@@ -604,7 +620,7 @@ entries:
     - eo-base-helm-chart-v0.5.0.tgz
     version: v0.5.0
   - apiVersion: v2
-    created: "2022-02-11T10:32:16.240223075Z"
+    created: "2022-02-11T10:42:16.706667471Z"
     description: A Helm chart for Kubernetes
     digest: 93c3f0e7edca0d0a55ad28c6e49304b2e4f7342671b1e65541c5099071948f46
     name: eo-base-helm-chart
@@ -613,7 +629,7 @@ entries:
     - eo-base-helm-chart-v0.4.9.tgz
     version: v0.4.9
   - apiVersion: v2
-    created: "2022-02-11T10:32:16.239905372Z"
+    created: "2022-02-11T10:42:16.706463071Z"
     description: A Helm chart for Kubernetes
     digest: 145131106fbc88a741648b9945e1515a71c38f80944d2710df46414a2db22534
     name: eo-base-helm-chart
@@ -622,7 +638,7 @@ entries:
     - eo-base-helm-chart-v0.4.8.tgz
     version: v0.4.8
   - apiVersion: v2
-    created: "2022-02-11T10:32:16.239340968Z"
+    created: "2022-02-11T10:42:16.70626457Z"
     description: A Helm chart for Kubernetes
     digest: c8f4d7c7f91a8f0528ebb37541cd4a7a0e73f7275bf987098a428c2b7f9ab401
     name: eo-base-helm-chart
@@ -631,7 +647,7 @@ entries:
     - eo-base-helm-chart-v0.4.7.tgz
     version: v0.4.7
   - apiVersion: v2
-    created: "2022-02-11T10:32:16.239063766Z"
+    created: "2022-02-11T10:42:16.706064569Z"
     description: A Helm chart for Kubernetes
     digest: 9a4a2c2bcabead69082573496c6be2b39ad42d5a81a62ba6a5d8e6cfe5765d4e
     name: eo-base-helm-chart
@@ -640,7 +656,7 @@ entries:
     - eo-base-helm-chart-v0.4.6.tgz
     version: v0.4.6
   - apiVersion: v2
-    created: "2022-02-11T10:32:16.23828286Z"
+    created: "2022-02-11T10:42:16.705866068Z"
     description: A Helm chart for Kubernetes
     digest: 4a15a2ab4200a66741ba9076bf93b8cdb4aeeb9784fdf476a1b43e3068641633
     name: eo-base-helm-chart
@@ -649,7 +665,7 @@ entries:
     - eo-base-helm-chart-v0.4.5.tgz
     version: v0.4.5
   - apiVersion: v2
-    created: "2022-02-11T10:32:16.238014558Z"
+    created: "2022-02-11T10:42:16.705655867Z"
     description: A Helm chart for Kubernetes
     digest: d5821b7a6d6b48e7c634b563d54f9b67b2b6feba1469a7ecd4433d41cba8751c
     name: eo-base-helm-chart
@@ -658,7 +674,7 @@ entries:
     - eo-base-helm-chart-v0.4.4.tgz
     version: v0.4.4
   - apiVersion: v2
-    created: "2022-02-11T10:32:16.237737155Z"
+    created: "2022-02-11T10:42:16.705445566Z"
     description: A Helm chart for Kubernetes
     digest: a1aebb207e9bd6cf652eb8f5879875e40c23a91231b66a664238289b9d262c24
     name: eo-base-helm-chart
@@ -667,7 +683,7 @@ entries:
     - eo-base-helm-chart-v0.4.3.tgz
     version: v0.4.3
   - apiVersion: v2
-    created: "2022-02-11T10:32:16.237477253Z"
+    created: "2022-02-11T10:42:16.705239265Z"
     description: A Helm chart for Kubernetes
     digest: 6e425cd51a67004fc380683f44b79a178d90d5f549d7ed58a9156613dae870b4
     name: eo-base-helm-chart
@@ -676,7 +692,7 @@ entries:
     - eo-base-helm-chart-v0.4.1.tgz
     version: v0.4.1
   - apiVersion: v2
-    created: "2022-02-11T10:32:16.237224751Z"
+    created: "2022-02-11T10:42:16.705040664Z"
     description: A Helm chart for Kubernetes
     digest: 31da34800936fad7e17bb76dc2f06f7417a1978e4ff93c98e3774d22e17b6234
     name: eo-base-helm-chart
@@ -685,7 +701,7 @@ entries:
     - eo-base-helm-chart-v0.4.0.tgz
     version: v0.4.0
   - apiVersion: v2
-    created: "2022-02-11T10:32:16.236950249Z"
+    created: "2022-02-11T10:42:16.704854764Z"
     description: A Helm chart for Kubernetes
     digest: 3fada6f8c67bb08469c81abcce0f4fc2d0599c7e8c0e970ae6ae45afc416626e
     name: eo-base-helm-chart
@@ -694,7 +710,7 @@ entries:
     - eo-base-helm-chart-v0.3.4.tgz
     version: v0.3.4
   - apiVersion: v2
-    created: "2022-02-11T10:32:16.236710047Z"
+    created: "2022-02-11T10:42:16.704643363Z"
     description: A Helm chart for Kubernetes
     digest: 05b0c84ccebcc0a0b78ecfb60036e82f0728774e21d8860cb99e8926a0463427
     name: eo-base-helm-chart
@@ -703,7 +719,7 @@ entries:
     - eo-base-helm-chart-v0.3.1.tgz
     version: v0.3.1
   - apiVersion: v2
-    created: "2022-02-11T10:32:16.236502246Z"
+    created: "2022-02-11T10:42:16.704480162Z"
     description: A Helm chart for Kubernetes
     digest: e2fb543b49db0ca06378aff4b6169585599dc3383c49046a25e881b60b3e120e
     name: eo-base-helm-chart
@@ -712,7 +728,7 @@ entries:
     - eo-base-helm-chart-v0.3.0.tgz
     version: v0.3.0
   - apiVersion: v2
-    created: "2022-02-11T10:32:16.236289444Z"
+    created: "2022-02-11T10:42:16.704316961Z"
     description: A Helm chart for Kubernetes
     digest: 1927fcf4f040f070f25857cd7a85c501072e7a1edd790dd0254b5d589f967af0
     name: eo-base-helm-chart
@@ -722,7 +738,7 @@ entries:
     version: v0.2.0
   oe-base-helm-chart:
   - apiVersion: v2
-    created: "2022-02-11T10:32:16.240769879Z"
+    created: "2022-02-11T10:42:16.707032673Z"
     description: A Helm chart for Kubernetes
     digest: 578ba71ea0b9ae7ae63c3a1ab54c1f29823b011d902dfa71b1b39c6c61d97c35
     name: oe-base-helm-chart
@@ -730,4 +746,4 @@ entries:
     urls:
     - oe-base-helm-chart-v0.2.0.tgz
     version: v0.2.0
-generated: "2022-02-11T10:32:16.00404023Z"
+generated: "2022-02-11T10:42:16.526528795Z"
